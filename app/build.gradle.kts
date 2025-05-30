@@ -6,6 +6,9 @@ android {
     namespace = "com.example.tcc"
     compileSdk = 35
 
+viewBinding{
+    enable = true
+}
     defaultConfig {
         applicationId = "com.example.tcc"
         minSdk = 24
