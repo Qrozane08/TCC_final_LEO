@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="15dp"
     tools:context=".Receitas">
 
     <!-- Header com título e ícone -->
@@ -21,12 +20,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            app:srcCompat="@drawable/receitas" />
+            android:id="@+id/imageViewIcon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Ícone Receitas"
+            android:src="@android:drawable/ic_dialog_info" />
 
         <TextView
             android:id="@+id/textViewTitle"
